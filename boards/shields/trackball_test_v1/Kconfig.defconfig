@@ -1,0 +1,7 @@
+if SHIELD_TRACKBALL_TEST_V1
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Trackball v1"
+
+endif

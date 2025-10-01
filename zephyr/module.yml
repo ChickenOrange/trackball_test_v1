@@ -1,3 +1,4 @@
+name: zmk-keyboard-trackball_test_v1
 build:
   settings:
     board_root: .
