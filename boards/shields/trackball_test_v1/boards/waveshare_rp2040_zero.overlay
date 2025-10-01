@@ -19,14 +19,22 @@
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
-            pinmux = <SPI0_SCK_P6>, <SPI0_TX_P7>, <SPI0_RX_P8>;
+            pinmux = <SPI0_SCK_P6>, <SPI0_TX_P7>;
+        };
+        group2 {
+            pinmux =  <SPI0_RX_P8>;
+            input-enable;
         };
     };
 
     spi0_sleep: spi0_sleep {
         group1 {
-            pinmux = <SPI0_SCK_P6>, <SPI0_TX_P7>, <SPI0_RX_P8>;
+            pinmux = <SPI0_SCK_P6>, <SPI0_TX_P7>;
             low-power-enable;
+        };
+        group2 {
+            pinmux =  <SPI0_RX_P8>;
+            input-enable;
         };
     };
 };
