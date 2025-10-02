@@ -22,7 +22,7 @@
             pinmux = <SPI0_SCK_P6>, <SPI0_TX_P7>;
         };
         group2 {
-            pinmux =  <SPI0_RX_P8>;
+            pinmux = <SPI0_RX_P8>;
             input-enable;
         };
     };
