@@ -8,17 +8,17 @@
 /*&pinctrl {
 *	uart0_default: uart0_default {
 *		group1 {
-*			pinmux = <UART0_TX_P0>;/*UART0_TX 핀 0에 할당*/
+*			pinmux = <UART0_TX_P0>;
 *		};
 *		group2 {
-*			pinmux = <UART0_RX_P1>;/*UART0_RX 핀 1에 할당*/
-*			input-enable;/*입력 기능 활성*/
+*			pinmux = <UART0_RX_P1>;
+*			input-enable;
 *		};
 *	};
 *	
 *	i2c0_default: i2c0_default {
 *		group1 {
-*			pinmux = <I2C0_SDA_P4>, <I2C0_SCL_P5>;/*I2C0_SDA 핀4에 할당, I2CO_SCL 핀5에 할당*/
+*			pinmux = <I2C0_SDA_P4>, <I2C0_SCL_P5>;
 *			input-enable;
 *			input-schmitt-enable;
 *		};
