@@ -131,15 +131,15 @@
 	status = "okay";
 };
 
-&adc {
-	status = "okay";
-	pinctrl-0 = <&adc_default>;
-	pinctrl-names = "default";
-};
-
-zephyr_udc0: &usbd {
-	status = "okay";
-};
+//&adc {
+//	status = "okay";
+//	pinctrl-0 = <&adc_default>;
+//	pinctrl-names = "default";
+//};
+//
+//zephyr_udc0: &usbd {
+//	status = "okay";
+//};
 
 // &vreg {
 // 	regulator-always-on;
