@@ -33,7 +33,7 @@
 
 &spi0 {
     status = "okay";
-    compatible = "raspberrypi,rp2040-spi";
+    //compatible = "raspberrypi,rp2040-spi";
     pinctrl-0 = <&spi0_default>;
     pinctrl-names = "default";
     cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
