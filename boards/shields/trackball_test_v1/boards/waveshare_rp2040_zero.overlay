@@ -5,17 +5,17 @@
  */
 
 
-/ {
-    chosen {
-        zephyr,console = &cdc_acm_uart;
-    };
-};
+/* {
+*    chosen {
+*        zephyr,console = &cdc_acm_uart;
+*    };
+};*/
 
-&usbd {
-    cdc_acm_uart: cdc_acm_uart {
-        compatible = "zephyr,cdc-acm-uart";
-    };
-};
+/*&usbd {
+*    cdc_acm_uart: cdc_acm_uart {
+*        compatible = "zephyr,cdc-acm-uart";
+*    };
+};*/
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
