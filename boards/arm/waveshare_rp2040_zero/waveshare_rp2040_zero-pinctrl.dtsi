@@ -16,15 +16,15 @@
 		};
 	};
 };	
-	i2c0_default: i2c0_default {
-		group1 {
-			pinmux = <I2C0_SDA_P4>, <I2C0_SCL_P5>;
-			input-enable;
-			input-schmitt-enable;
-		};
-	};
-
-/*	spi0_default: spi0_default {
+/*	i2c0_default: i2c0_default {
+*		group1 {
+*			pinmux = <I2C0_SDA_P4>, <I2C0_SCL_P5>;
+*			input-enable;
+*			input-schmitt-enable;
+*		};
+*	};
+*	
+*	spi0_default: spi0_default {
 *		group1 {
 *			pinmux = <SPI0_CSN_P17>, <SPI0_SCK_P18>, <SPI0_TX_P19>;
 *		};
